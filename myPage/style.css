@@ -1,0 +1,27 @@
+* {
+	border: solid yellow 1px;
+}
+
+#header {
+	height: 50px;
+	background-color: black;
+}
+
+#intro {
+	height: 80vh;
+	background: 
+		linear-gradient(
+		135deg,
+		rgba(212, 136, 136, 0.589),
+		rgba(0, 0, 255, 0.45)),
+		url(img/rainier.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+}
+
+#projects {
+	height: 500px;
+}
