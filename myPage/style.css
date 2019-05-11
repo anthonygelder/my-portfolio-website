@@ -2,6 +2,13 @@
 	border: solid yellow 1px;
 }
 
+@font-face {
+	font-family: Underland;
+	src: url('fonts/Underland\ Alternative.otf');
+	/* src: url('fonts/Bluesky.otf'); */
+
+}
+
 #header {
 	height: 50px;
 	background-color: black;
@@ -24,4 +31,13 @@
 
 #projects {
 	height: 500px;
+}
+
+h1 {
+	font-family: 'Underland', sans-serif;
+	font-size: 80px;
+}
+
+.welcome {
+	text-align: center;
 }
